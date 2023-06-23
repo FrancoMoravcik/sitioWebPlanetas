@@ -110,19 +110,14 @@ function mostrarInformacion(element) {
 
      <div class="divInfo col-lg-5 col-sm-6 d-flex flex-column align-items-start">
 
-     <div> 
-      <h1>${element.planeta}</h1>
+     <h1>${element.planeta}</h1>
      <p id="pInfoCambiable">${element.DescripcionGeneral}</p>
      <p>Fuente: <a target="blank" href="${element.wikipedia}">Wikipedia <img  class="imgFlecha" src="img/flecha.png"></a></p>
-     </div>
-     
-     <div>
+
      <button id="btn1${element.id}" class="btnsTextos ${element.id}">01 DESCRIPCION GENERAL</button>
      <button id="btn2${element.id}" class="btnsTextos ${element.id}">02 ESTRUCTURA INTERNA</button>
      <button id="btn3${element.id}" class="btnsTextos ${element.id}">03 GEOLOGIA SUPERFICIAL</button>
-     </div>
-
-     </div> 
+ </div> 
      
      </section>
 
